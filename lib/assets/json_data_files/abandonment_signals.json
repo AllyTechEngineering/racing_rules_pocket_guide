@@ -1,0 +1,8 @@
+{
+  "AbandonmentSignals": [
+    {"Title": "N", "Image":"lib/assets/images/abandonment_signals/n_with_signals.png", "Description": "All races that have started are abandoned."},
+    {"Title": "N over H", "Image": "lib/assets/images/abandonment_signals/n_over_h_with_signals.png", "Description": "All races are abandoned. Further signals ashore."},
+    {"Title": "N over A", "Image": "lib/assets/images/abandonment_signals/n_over_a_with_signals.png", "Description": "All races are abandoned. No more racing today."},
+    {"Title": "V", "Image": "lib/assets/images/abandonment_signals/v_with_signals.png", "Description": "Monitor communication channel for safety instructions"}
+  ]
+}

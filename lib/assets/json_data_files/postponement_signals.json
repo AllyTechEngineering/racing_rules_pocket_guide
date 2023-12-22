@@ -1,0 +1,16 @@
+{
+  "PostponementSignals": [
+    {"Title": "AP", "Image":"lib/assets/images/postponement_signals/ap_with_signals.png", "Description": "Races not started are postponed."},
+    {"Title": "AP over H", "Image":"lib/assets/images/postponement_signals/ap_over_h_with_signals.png", "Description": "Races not started are postponed.\nFurther signals ashore."},
+    {"Title": "AP over A", "Image":"lib/assets/images/postponement_signals/ap_over_a_with_signals.png", "Description": "Races not started are postponed.\nNo more racing today."},
+    {"Title": "AP over a Numeral Pennant 1", "Image":"lib/assets/images/postponement_signals/ap_over_1.png", "Description": "Postponement of 1 hr."},
+    {"Title": "AP over a Numeral Pennant 2", "Image":"lib/assets/images/postponement_signals/ap_over_2.png", "Description": "Postponement of 2 hrs."},
+    {"Title": "AP over a Numeral Pennant 3", "Image":"lib/assets/images/postponement_signals/ap_over_3.png", "Description": "Postponement of 3 hrs."},
+    {"Title": "AP over a Numeral Pennant 4", "Image":"lib/assets/images/postponement_signals/ap_over_4.png", "Description": "Postponement of 4 hrs."},
+    {"Title": "AP over a Numeral Pennant 5", "Image":"lib/assets/images/postponement_signals/ap_over_5.png", "Description": "Postponement of 5 hrs."},
+    {"Title": "AP over a Numeral Pennant 6", "Image":"lib/assets/images/postponement_signals/ap_over_6.png", "Description": "Postponement of 6 hrs."},
+    {"Title": "AP over a Numeral Pennant 7", "Image":"lib/assets/images/postponement_signals/ap_over_7.png", "Description": "Postponement of 7 hrs."},
+    {"Title": "AP over a Numeral Pennant 8", "Image":"lib/assets/images/postponement_signals/ap_over_8.png", "Description": "Postponement of 8 hrs."},
+    {"Title": "AP over a Numeral Pennant 9", "Image":"lib/assets/images/postponement_signals/ap_over_9.png", "Description": "Postponement of 9 hrs."}
+  ]
+}

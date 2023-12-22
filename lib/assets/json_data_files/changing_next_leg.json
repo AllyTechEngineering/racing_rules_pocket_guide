@@ -1,0 +1,9 @@
+{
+"ChangingNextLegSignals": [
+{"Title": "C", "Image":"lib/assets/images/changing_next_leg/c_with_signals.png", "Description": "The position of the next mark has been changed:"},
+{"Title": "To Starboard", "Image": "lib/assets/images/changing_next_leg/green.png", "Description": "To Starboard"},
+{"Title": "To Port", "Image": "lib/assets/images/changing_next_leg/red.png", "Description": " To Port"},
+{"Title": "To Decrease", "Image": "lib/assets/images/changing_next_leg/minus.png", "Description": "To decrease the length of the leg."},
+{"Title": "To Increase", "Image": "lib/assets/images/changing_next_leg/plus.png", "Description": "To increase the length of the leg."}
+]
+}
