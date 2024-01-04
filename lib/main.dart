@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:sailing_rules/repositories/rules_data_repository.dart';
 import 'package:sailing_rules/screens/definition_screen.dart';
 import 'package:sailing_rules/screens/home_screen.dart';
 import 'package:sailing_rules/screens/results_screen.dart';
 import 'package:sailing_rules/screens/settings_screen.dart';
+import 'package:sailing_rules/utilities/app_theme_data_class.dart';
 import 'package:sailing_rules/utilities/theme.dart';
+
+import 'blocs/data/rules_data_cubit.dart';
+import 'blocs/selection/selection_cubit.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +22,7 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/',
       builder: (BuildContext context, GoRouterState state) {
-        return HomeScreen();
+        return const HomeScreen();
       },
       routes: <RouteBase>[
         GoRoute(
@@ -31,6 +37,12 @@ final GoRouter _router = GoRouter(
             return const ResultsScreen();
           },
         ),
+        // GoRoute(
+        //   path: 'results_screen_two',
+        //   builder: (BuildContext context, GoRouterState state) {
+        //     return const ResultsScreenTwo();
+        //   },
+        // ),
         GoRoute(
           path: 'settings_screen',
           builder: (BuildContext context, GoRouterState state) {
@@ -47,14 +59,24 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      debugShowCheckedModeBanner: false,
-      routerConfig: _router,
-      theme: appTheme.copyWith(
-        textTheme: appTheme.textTheme.copyWith(
-          bodyLarge: appTheme.textTheme.bodyLarge?.copyWith(
-            fontSize: calculateAdjustedFontSize(24.0, context),
+    return RepositoryProvider(
+      create: (context) => RulesDataRepository(),
+      child: MultiBlocProvider(
+        providers: [
+          BlocProvider<SelectionCubit>(
+            create: (context) => SelectionCubit(),
           ),
+          BlocProvider<RulesDataCubit>(
+            create: (context) => RulesDataCubit(
+              rulesDataRepository: RulesDataRepository(),
+              selectionCubit: context.read<SelectionCubit>(),
+            ),
+          ),
+        ],
+        child: MaterialApp.router(
+          debugShowCheckedModeBanner: false,
+          routerConfig: _router,
+          theme: AppThemeDataClass().getAppTheme(context),
         ),
       ),
     );

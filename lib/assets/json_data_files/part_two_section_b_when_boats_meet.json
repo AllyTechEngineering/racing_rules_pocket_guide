@@ -1,0 +1,32 @@
+{
+  "partTwoWhenBoatsMeetSectionB": [
+    {
+      "Title": "PART 2 WHEN BOATS MEET",
+      "Rule": "The rules of Part 2 apply between boats that are sailing in or near the racing area and intend to race, are racing, or have been racing. However, a boat not racing shall not be penalized for breaking one of these rules, except rule 14 when the incident resulted in injury or serious damage, or rule 23.1."
+    },
+    {
+      "Title": "PART 2 WHEN BOATS MEET Continued",
+      "Rule": "When a boat sailing under these rules meets a vessel that is not, she shall comply with the International Regulations for Preventing Collisions at Sea (IRPCAS) or government right-of-way rules. If the notice of race so states, the rules of Part 2 are replaced by the right- of-way rules of the IRPCAS or by government right-of-way rules."
+    },
+    {
+      "Title": "SECTION B GENERAL LIMITATIONS\n14 AVOIDING CONTACT ",
+      "Rule": "A boat shall avoid contact with another boat if reasonably possible. However, a right-of-way boat, or one sailing within the room or mark-room to which she is entitled, need not act to avoid contact until it is clear that the other boat is not keeping clear or giving room or mark-room. "
+    },
+    {
+      "Title": "SECTION B GENERAL LIMITATIONS\n15 ACQUIRING RIGHT OF WAY",
+      "Rule": "When a boat acquires right of way, she shall initially give the other boat room to keep clear, unless she acquires right of way because of the other boat’s actions."
+    },
+    {
+      "Title": "SECTION B GENERAL LIMITATIONS\n16 CHANGING COURSE 16.1",
+      "Rule": "When a right-of-way boat changes course, she shall give the other boat room to keep clear."
+    },
+    {
+      "Title": "SECTION B GENERAL LIMITATIONS\n16 CHANGING COURSE 16.2",
+      "Rule": "In addition, on a beat to windward when a port-tack boat is keeping clear by sailing to pass to leeward of a starboard-tack boat, the starboard-tack boat shall not bear away if as a result the port-tack boat must change course immediately to continue keeping clear."
+    },
+    {
+      "Title": "SECTION B GENERAL LIMITATIONS\n17 ON THE SAME TACK; PROPER COURSE",
+      "Rule": "If a boat clear astern becomes overlapped within two of her hull lengths to leeward of a boat on the same tack, she shall not sail above her proper course while they remain on the same tack and overlapped within that distance, unless in doing so she promptly sails astern of the other boat. This rule does not apply if the overlap begins while the windward boat is required by rule 13 to keep clear."
+    }
+  ]
+}

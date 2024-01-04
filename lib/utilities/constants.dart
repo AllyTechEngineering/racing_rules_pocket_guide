@@ -1,0 +1,17 @@
+const String kApiHost = 'api.openweathermap.org';
+const String kIconHost = 'www.openweathermap.org';
+const String kUnit = 'metric';
+const String kLimit = '1';
+const int kWarmOrNot = 20;
+const double kToolbarTextStyle = 20.0;
+const double kTitleTextStyle = 20.0;
+const double kIconThemeSize = 50.0;
+const double kActionsIconThemeIconSize = 35.0;
+const double kIconThemeIconSize = 40.0;
+const double kIconSearchSize = 100.0;
+const double kShowIconWidth = 150.0;
+const double kShowIconHeight = 150.0;
+const int kIconThemeColor = 0xFF053B50;
+const double kWidth = 350.0;
+const double kHeight = 200.0;
+const double kAndroidHeight = 2.0;

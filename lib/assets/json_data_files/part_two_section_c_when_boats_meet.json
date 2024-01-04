@@ -1,0 +1,64 @@
+{
+  "partTwoWhenBoatsMeetSectionC": [
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS",
+      "Rule": "Section C rules do not apply at a starting mark surrounded by navigable water or at its anchor line from the time boats are approaching them to start until they have passed them."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n18 MARK-ROOM\n18.1 When Rule 18 Applies",
+      "Rule": "Rule 18 applies between boats when they are required to leave a mark on the same side and at least one of them is in the zone. However, it does not apply:"
+    },
+    {
+      "Title": "18.1 When Rule 18 Applies Cont.",
+      "Rule": "(a) between boats on opposite tacks on a beat to windward,\n(b) between boats on opposite tacks when the proper course at the mark for one but not both of them is to tack,\n(c) between a boat approaching a mark and one leaving it, or\n(d) if the mark is a continuing obstruction, in which case rule 19 applies.\nRule 18 no longer applies between boats when mark-room has been given."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n18 MARK-ROOM\n18.2 Giving Mark-Room",
+      "Rule": "(a) When boats are overlapped the outside boat shall give the inside boat mark-room, unless rule 18.2(b) applies.\n(b) If boats are overlapped when the first of them reaches the zone, the outside boat at that moment shall thereafter give the inside boat mark-room. If a boat is clear ahead when she reaches the zone, the boat clear astern at that moment shall thereafter give her mark-room."
+    },
+    {
+      "Title": "18.2 Giving Mark-Room Cont.",
+      "Rule": "(c) When a boat is required to give mark-room by rule 18.2(b),\n(1) she shall continue to do so even if later an overlap is broken or a new overlap begins;\n(2) if she becomes overlapped inside the boat entitled to mark-room, she shall also give that boat room to sail her proper course while they remain overlapped.\n(d) Rules 18.2(b) and (c) cease to apply if the boat entitled to mark-room passes head to wind or leaves the zone."
+    },
+    {
+      "Title": "18.2 Giving Mark-Room Cont.",
+      "Rule": "(e) If there is reasonable doubt that a boat obtained or broke an overlap in time, it shall be presumed that she did not.\n(f) If a boat obtained an inside overlap from clear astern or by tacking to windward of the other boat and, from the time the overlap began, the outside boat has been unable to give mark- room, she is not required to give it."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n18 MARK-ROOM\n18.3 Passing Head to Wind in the Zone",
+      "Rule": "If a boat in the zone of a mark to be left to port passes head to wind from port to starboard tack and is then fetching the mark, she shall not cause a boat that has been on starboard tack since entering the zone to sail above close-hauled to avoid contact and she shall give mark-room if that boat becomes overlapped inside her. When this rule applies between boats, rule 18.2 does not apply between them."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n18 MARK-ROOM\n18.4 Gybing",
+      "Rule": "When an inside overlapped right-of-way boat must gybe at a mark to sail her proper course, until she gybes she shall sail no farther from the mark than needed to sail that course. Rule 18.4 does not apply at a gate mark."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n19 ROOM TO PASS AN OBSTRUCTION\n19.1 When Rule 19 Applies",
+      "Rule": "Rule 19 applies between two boats at an obstruction except\n(a) when the obstruction is a mark the boats are required to leave on the same side, or\n(b) when rule 18 applies between the boats and the obstruction is another boat overlapped with each of them.\nHowever, at a continuing obstruction, rule 19 always applies and rule 18 does not."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n19 ROOM TO PASS AN OBSTRUCTION\n19.2 Giving Room at an Obstruction",
+      "Rule": "(a) A right-of-way boat may choose to pass an obstruction on either side.\n(b) When boats are overlapped, the outside boat shall give the inside boat room between her and the obstruction, unless she has been unable to do so from the time the overlap began."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n20 ROOM TO TACK AT AN OBSTRUCTION\n20.1 Hailing",
+      "Rule": "A boat may hail for room to tack and avoid a boat on the same tack.\nHowever, she shall not hail unless\n(a) she is approaching an obstruction and will soon need to make a substantial course change to avoid it safely, and\n(b) she is sailing close-hauled or above.\nIn addition, she shall not hail if the obstruction is a mark and a boat that is fetching it would be required to change course as a result of the hail."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n20 ROOM TO TACK AT AN OBSTRUCTION\n20.2 Responding",
+      "Rule": "(a) After a boat hails, she shall give a hailed boat time to respond.\n(b) A hailed boat shall respond even if the hail breaks rule 20.1.\n(c) A hailed boat shall respond either by tacking as soon as possible, or by immediately replying ‘You tack’ and then giving the hailing boat room to tack and avoid her."
+    },
+    {
+      "Title": "20.2 Responding Cont.",
+      "Rule": "(d) When a hailed boat responds, the hailing boat shall tack as soon as possible.\n(e) From the time a boat hails until she has tacked and avoided a hailed boat, rule 18.2 does not apply between them."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n20 ROOM TO TACK AT AN OBSTRUCTION\n20.23 Passing On a Hail to an Additional Boat",
+      "Rule": "When a boat has been hailed for room to tack and she intends to respond by tacking, she may hail another boat on the same tack for room to tack and avoid her. She may hail even if her hail does not meet the conditions of rule 20.1. Rule 20.2 applies between her and a boat she hails."
+    },
+    {
+      "Title": "SECTION C AT MARKS AND OBSTRUCTIONS\n20 ROOM TO TACK AT AN OBSTRUCTION\n20.24 Additional Requirements for Hails",
+      "Rule": "(a) When conditions are such that a hail may not be heard, the boat shall also make a signal that clearly indicates her need for room to tack or her response.\n(b) The notice of race may specify an alternative communication for a boat to indicate her need for room to tack or her response, and require boats to use it."
+    }
+  ]
+}

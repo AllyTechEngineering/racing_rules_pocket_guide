@@ -1,9 +1,0 @@
-{
-  "OtherSignals": [
-    {"Title": "L", "Image":"lib/assets/images/other_signals/l_with_signals.png", "Description": "Ashore: A notice to competitors has been posted."},
-    {"Title": "M", "Image": "lib/assets/images/other_signals/m_with_signals.png", "Description": "The object displaying this signal replaces a missing mark."},
-    {"Title": "Y", "Image": "lib/assets/images/other_signals/y_with_signals.png", "Description": "Wear a personal flotation device. (see rule 40)."},
-    {"Title": "Orange", "Image": "lib/assets/images/other_signals/orange_with_signals.png", "Description": "The staff displaying this flag is one end of the starting line."},
-    {"Title": "Blue", "Image": "lib/assets/images/other_signals/blue_with_signals.png", "Description": "The staff displaying this flag is one end of the finishing line."}
-  ]
-}

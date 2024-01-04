@@ -1,7 +1,0 @@
-{
-  "RecallSignals": [
-    {"Title": "X", "Image":"lib/assets/images/recall_signals/x_with_signals.png", "Description": "Individual recall."},
-    {"Title": "First Substitute", "Image": "lib/assets/images/recall_signals/first_substitute_with_signals.png", "Description": "General recall."},
-    {"Title": "S", "Image": "lib/assets/images/recall_signals/s_with_signals.png", "Description": "The course has been shortened. Rule 32.2 is in effect."}
-  ]
-}

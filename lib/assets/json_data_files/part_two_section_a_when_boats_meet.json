@@ -1,0 +1,32 @@
+{
+  "partTwoWhenBoatsMeetSectionA": [
+    {
+      "Title": "PART 2 WHEN BOATS MEET",
+      "Rule": "The rules of Part 2 apply between boats that are sailing in or near the racing area and intend to race, are racing, or have been racing. However, a boat not racing shall not be penalized for breaking one of these rules, except rule 14 when the incident resulted in injury or serious damage, or rule 23.1."
+    },
+    {
+      "Title": "PART 2 WHEN BOATS MEET Continued",
+      "Rule": "When a boat sailing under these rules meets a vessel that is not, she shall comply with the International Regulations for Preventing Collisions at Sea (IRPCAS) or government right-of-way rules. If the notice of race so states, the rules of Part 2 are replaced by the right- of-way rules of the IRPCAS or by government right-of-way rules."
+    },
+    {
+      "Title": "SECTION A RIGHT OF WAY Definition",
+      "Rule": "A boat has right of way over another boat when the other boat is required to keep clear of her. However, some rules in Sections B, C and D limit the actions of a right-of-way boat."
+    },
+    {
+      "Title": "SECTION A RIGHT OF WAY\n10 ON OPPOSITE TACKS",
+      "Rule": "When boats are on opposite tacks, a port-tack boat shall keep clear of a starboard-tack boat."
+    },
+    {
+      "Title": "SECTION A RIGHT OF WAY\n11 ON THE SAME TACK, OVERLAPPED",
+      "Rule": "When boats are on the same tack and overlapped, a windward boat shall keep clear of a leeward boat."
+    },
+    {
+      "Title": "SECTION A RIGHT OF WAY\n12 ON THE SAME TACK, NOT OVERLAPPED",
+      "Rule": "When boats are on the same tack and not overlapped, a boat clear astern shall keep clear of a boat clear ahead."
+    },
+    {
+      "Title": "SECTION A RIGHT OF WAY\n13 WHILE TACKING",
+      "Rule": "After a boat passes head to wind, she shall keep clear of other boats until she is on a close-hauled course. During that time rules 10, 11 and 12 do not apply. If two boats are subject to this rule at the same time, the one on the other’s port side or the one astern shall keep clear."
+    }
+  ]
+}

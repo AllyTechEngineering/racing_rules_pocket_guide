@@ -1,9 +1,0 @@
-{
-  "PreparatorySignals": [
-    {"Title": "P", "Image":"lib/assets/images/preparatory_signals/p_with_signals.png", "Description": "Preparatory signal."},
-    {"Title": "I", "Image": "lib/assets/images/preparatory_signals/i_with_signals.png", "Description": "Rule 30.1 is in effect."},
-    {"Title": "Z", "Image": "lib/assets/images/preparatory_signals/z_with_signals.png", "Description": "Rule 30.2 is in effect."},
-    {"Title": "U", "Image": "lib/assets/images/preparatory_signals/u_with_signals.png", "Description": "Rule 30.3 is in effect."},
-    {"Title": "Black", "Image": "lib/assets/images/preparatory_signals/black_with_signals.png", "Description": "Rule 30.4 is in effect."}
-  ]
-}
