@@ -1,96 +1,184 @@
 {
   "partFiveProtestsSectionB": [
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.1",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.1 HEARINGS\nRequirement for a Hearing",
+      "Rule": "A boat or competitor shall not be penalized without a protest hearing, except as provided in rules 30.2, 30.3, 30.4, 64.4(d), 64.5(b), 64.6, 69, 78.2, A5.1 and P2. A decision on redress shall not be made without a hearing."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.2",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.1 HEARINGS\nRequirement for a Hearing Continued",
+      "Rule": "The protest committee shall hear all protests and requests for redress that have been delivered to the race office unless it allows a protest or request to be withdrawn."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.3",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.2 HEARINGS\nTime and Place of the Hearing; Time for Parties to Prepare",
+      "Rule": "All parties to the hearing shall be notified of the time and place of the hearing, the protest or redress information or the allegations shall be made available to them, and they shall be allowed reasonable time to prepare for the hearing."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.4",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.2 HEARINGS\nTime and Place of the Hearing; Time for Parties to Prepare Continued",
+      "Rule": "When two or more hearings arise from the same incident, or from very closely connected incidents, they may be heard together in one hearing. However, a hearing conducted under rule 69 shall not be combined with any other type of hearing."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.5",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.3 HEARINGS\nRight to Be Present",
+      "Rule": "(a) A representative of each party to the hearing has the right to be present throughout the hearing of all the evidence. When a protest claims a breach of a rule of Part 2, 3 or 4, the representatives of boats shall have been on board at the time of the incident, unless there is good reason for the protest committee to rule otherwise. "
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.6",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.3 HEARINGS\nRight to Be Present Continued",
+      "Rule": "Any witness, other than a member of the protest committee, shall be excluded except when giving evidence.\n(b) If a party to a hearing does not come to the hearing, the protest committee may nevertheless proceed with the hearing. If the party was unavoidably absent, the committee may reopen the hearing."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.7",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.4 HEARINGS\nConflict of Interest",
+      "Rule": "(a) A protest committee member shall declare any possible conflict of interest as soon as he is aware of it. A party to the hearing who believes a member of the protest committee has a conflict of interest shall object as soon as possible. A conflict of interest declared by a protest committee member shall be included in the written information provided under rule 65.2."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.8",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.4 HEARINGS\nConflict of Interest Continued",
+      "Rule": "n(b) A member of a protest committee with a conflict of interest\nshall not be a member of the committee for the hearing, unless\n(1) all parties consent, or\n(2) the protest committee decides that the conflict of interest\nis not significant."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.9",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.4 HEARINGS\nConflict of Interest Continued",
+      "Rule": "(c) When deciding whether a conflict of interest is significant, the protest committee shall consider the views of the parties, the level of the conflict, the level of the event, the importance to each party, and the overall perception of fairness."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.1",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.4 HEARINGS\nConflict of Interest Continued",
+      "Rule": "(d) However, for World Sailing major events, or for other events as prescribed by the national authority of the venue, rule 63.4(b) does not apply and a person who has a conflict of interest shall not be a member of the protest committee."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.2",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.5 HEARINGS\nValidity of the Protest or Request for Redress",
+      "Rule": "At the beginning of the hearing the protest committee shall take any evidence it considers necessary to decide whether all requirements for the protest or request for redress have been met. If they have been met, the protest or request is valid and the hearing shall be continued."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.3",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.5 HEARINGS\nValidity of the Protest or Request for Redress Continued",
+      "Rule": "If not, the committee shall declare the protest or request invalid and close the hearing. If the protest has been made under rule 60.3(a)(1), the committee shall also determine whether or not injury or serious damage resulted from the incident in question. If not, the hearing shall be closed."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.6 HEARINGS\nTaking Evidence and Finding Facts",
+      "Rule": "(a) The protest committee shall take the evidence, including hearsay evidence, of the parties present at the hearing and of their witnesses and other evidence it considers necessary. However, the committee may exclude evidence which it considers to be irrelevant or unduly repetitive."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.5",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.6 HEARINGS\nTaking Evidence and Finding Facts Continued",
+      "Rule": "(b) A member of the protest committee who saw the incident shall, while the parties are present, state that fact and may give evidence.\n(c) A party present at the hearing may question any person who gives evidence."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.6",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.6 HEARINGS\nTaking Evidence and Finding Facts Continued",
+      "Rule": "(d) The committee shall then give the weight it considers appropriate to the evidence presented, find the facts and base its decision on them."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.1",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.7 HEARINGS\nConflict Between Rules",
+      "Rule": "If there is a conflict between two or more rules that must be resolved before the protest committee makes a decision, the committee shall apply the rule that it believes will provide the fairest result for all boats affected."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.2",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.7 HEARINGS\nConflict Between Rules Continued",
+      "Rule": "Rule 63.7 applies only if the conflict is between rules in the notice of race, the sailing instructions, or any of the other documents that govern the event under item (g) of the definition Rule."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.3",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.8 HEARINGS\nHearings Involving Parties in Different Events",
+      "Rule": "A hearing involving parties in different events conducted by different organizing authorities shall be heard by a protest committee acceptable to those authorities."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.4",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n63.9 HEARINGS\nHearings under Rule 60.3(d) — Support Persons",
+      "Rule": "If the protest committee decides to call a hearing under rule 60.3(d), it shall promptly follow the procedures in rules 63.2, 63.3, 63.4 and 63.6, except that the information given to the parties shall be details of the alleged breach and a person may be appointed by the protest committee to present the allegation."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.1",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.1 DECISIONS\nStandard of Proof, Majority Decisions and Reclassifying Requests",
+      "Rule": "(a) A protest committee shall make its decision based on a balance of probabilities, unless provided for otherwise in the rule alleged to have been broken."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.2",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.1 DECISIONS\nStandard of Proof, Majority Decisions and Reclassifying Requests Continued",
+      "Rule": "(b) Decisions of the protest committee shall be by simple majority vote of all members. When there is equal division of votes cast, the chairman may cast an additional vote."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.3",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.1 DECISIONS\nStandard of Proof, Majority Decisions and Reclassifying Requests Continued",
+      "Rule": "(c) The protest committee shall proceed with each case, as a protest, request for redress or other type of request, based on the information in the written request or allegation and testimony during the hearing. This permits the type of case to be changed if appropriate."
     },
     {
-      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n67",
-      "Rule": ""
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.2 DECISIONS\nPenalties",
+      "Rule": "When the protest committee decides that a boat that is a party to a protest hearing has broken a rule and is not exonerated, it shall disqualify her unless some other penalty applies. A penalty shall be imposed whether or not the applicable rule was mentioned in the protest."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.2 DECISIONS\nPenalties Continued",
+      "Rule": "A penalty shall be imposed whether or not the applicable rule was mentioned in the protest. If a boat has broken a rule when not racing, her penalty shall apply to the race sailed nearest in time to that of the incident."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.2 DECISIONS\nPenalties Continued",
+      "Rule": "However,\n(a) if a boat has taken an applicable penalty, she shall not be further penalized under this rule unless the penalty for a rule she broke is a disqualification that is not excludable from her series score;\n(b) if the race is restarted or resailed, rule 36 applies."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.3 DECISIONS\nDecisions on Redress",
+      "Rule": "When the protest committee decides that a boat is entitled to redress under rule 62, it shall make as fair an arrangement as possible for all boats affected, whether or not they asked for redress. This may be to adjust the scoring (see rule A9 for some examples) or finishing times of boats, to abandon the race, to let the results stand or to make some other arrangement."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.3 DECISIONS\nDecisions on Redress Continued",
+      "Rule": "When in doubt about the facts or probable results of any arrangement for the race or series, especially before abandoning the race, the protest committee shall take evidence from appropriate sources."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4 DECISIONS\nDecisions on Protests Concerning Class Rules",
+      "Rule": "(a) When the protest committee finds that deviations in excess of tolerances specified in the class rules were caused by damage or normal wear and do not improve the performance of the boat, it shall not penalize her. However, the boat shall not race again until the deviations have been corrected, except when the protest committee decides there is or has been no reasonable opportunity to do so."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4 DECISIONS\nDecisions on Protests Concerning Class Rules Continued",
+      "Rule": "(b) When the protest committee is in doubt about the meaning of a class rule, it shall refer its questions, together with the relevant facts, to an authority responsible for interpreting the rule. In making its decision, the committee shall be bound by the reply of the authority."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4 DECISIONS\nDecisions on Protests Concerning Class Rules Continued",
+      "Rule": "(c) When a boat is penalized under a class rule and the protest committee decides that the boat also broke the same rule in earlier races in the same event, the penalty may be imposed for all such races. No further protest is necessary."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4 DECISIONS\nDecisions on Protests Concerning Class Rules Continued",
+      "Rule": "(d) When a boat penalized under a class rule states in writing that she intends to appeal, she may compete in subsequent races without changes to the boat. However, if she fails to appeal or the appeal is decided against her, she shall be disqualified without a further hearing from all subsequent races in which she competed."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.4 DECISIONS\nDecisions on Protests Concerning Class Rules Continued",
+      "Rule": "Measurement costs arising from a protest involving a class rule shall be paid by the unsuccessful party unless the protest committee decides otherwise."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.5 DECISIONS\nDecisions Concerning Support Persons",
+      "Rule": "(a) When the protest committee decides that a support person who is a party to a hearing under rule 60.3(d) or 69 has broken a rule, it may\n(1) issue a warning,\n(2) exclude the person from the event or venue or remove any privileges or benefits, or\n(3) take other action within its jurisdiction as provided by the rules."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.5 DECISIONS\nDecisions Concerning Support Persons Continued",
+      "Rule": "(b) The protest committee may also penalize a boat that is a party to a hearing under rule 60.3(d) or 69 for the breach of a rule by a support person by changing the boat’s score in a single race, up to and including disqualification, when the protest committee decides that..."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.5 DECISIONS\nDecisions Concerning Support Persons Continued",
+      "Rule": "(1) the boat may have gained a competitive advantage as the result of the breach by the support person, or\n(2) the support person committed a further breach after the protest committee warned the boat in writing, following a previous hearing, that a penalty may be imposed."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n64.6 DECISIONS\nDiscretionary Penalties",
+      "Rule": "When a boat reports within the protest time limit that she has broken a rule subject to a discretionary penalty, the protest committee shall decide the appropriate penalty after taking evidence from the boat and any witnesses it decides are appropriate."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.1 INFORMING THE PARTIES AND OTHERS",
+      "Rule": "65.1 After making its decision, the protest committee shall promptly inform the parties to the hearing of the facts found, the applicable rules, the decision, the reasons for it, and any penalties imposed or redress given."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.2 INFORMING THE PARTIES AND OTHERS",
+      "Rule": "A party to the hearing is entitled to receive the above information in writing, provided she asks for it in writing from the protest committee no later than seven days after being informed of the decision. The committee shall then promptly provide the information, including, when relevant, a diagram of the incident prepared or endorsed by the committee."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.3 INFORMING THE PARTIES AND OTHERS",
+      "Rule": "Unless there is good reason not to do so, after any hearing, including a hearing under rule 69, the protest committee may publish the information set out in rule 65.1. The protest committee may direct that the information is to be confidential to the parties."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n65.4 INFORMING THE PARTIES AND OTHERS",
+      "Rule": "When the protest committee penalizes a boat under a class rule, it shall send the above information to the relevant class rule authorities."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.1 REOPENING A HEARING",
+      "Rule": "The protest committee may reopen a hearing when it decides that it may have made a significant error, or when significant new evidence becomes available within a reasonable time. It shall reopen a hearing when required by the national authority under rule 71.2 or R5."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.2 REOPENING A HEARING",
+      "Rule": "A party to the hearing may request a reopening in writing no later than 24 hours after being informed of the decision.\n(a) However, on the last scheduled day of racing the request shall be delivered\n(1) within the protest time limit if the requesting party was informed of the decision on the previous day;\n(2) no later than 30 minutes after the party was informed of the decision on that day."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.3 REOPENING A HEARING",
+      "Rule": "The protest committee shall consider all requests to reopen. When a request to reopen is being considered or the hearing is reopened,"
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n66.3 REOPENING A HEARING Continued",
+      "Rule": "(a) when based only on new evidence, a majority of the members of the protest committee shall, if practicable, be members of the original committee;\n(b) when based on a significant error, the protest committee shall, if practicable, have at least one new member."
+    },
+    {
+      "Title": "PART 2 SECTION B HEARINGS AND DECISIONS\n67 DAMAGES\n",
+      "Rule": "The question of damages arising from a breach of any rule shall be governed by the prescriptions, if any, of the national authority."
     }
   ]
 }

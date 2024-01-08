@@ -7,7 +7,6 @@ import 'package:sailing_rules/screens/home_screen.dart';
 import 'package:sailing_rules/screens/results_screen.dart';
 import 'package:sailing_rules/screens/settings_screen.dart';
 import 'package:sailing_rules/utilities/app_theme_data_class.dart';
-import 'package:sailing_rules/utilities/theme.dart';
 
 import 'blocs/data/rules_data_cubit.dart';
 import 'blocs/selection/selection_cubit.dart';

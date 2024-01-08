@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sailing_rules/utilities/calculate_button_size_class.dart';
+import 'package:styled_text/styled_text.dart';
 import '../utilities/url_launcher.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import '../utilities/responsive_adaptive_class.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -89,25 +89,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   child: ElevatedButton(
                     onPressed: () {
-                      _launchURLBrowser('https://www.linkedin.com/in/bob-taylor-mscs-mba/');
+                      _cookieAlertRejectAccept('https://www.linkedin.com/in/bob-taylor-mscs-mba/');
+                      // _launchURLBrowser('https://www.linkedin.com/in/bob-taylor-mscs-mba/');
                     },
                     style: ElevatedButton.styleFrom(
                         elevation: 10.0,
                         // fixedSize: Size((width * 0.75), (height / 5.5)),
                         fixedSize: Size(elevatedButtonHeight, elevatedButtonWidth),
                         shape: RoundedRectangleBorder(
-                          side: BorderSide(width: 3.0, style: BorderStyle.solid),
+                          side: const BorderSide(width: 3.0, style: BorderStyle.solid),
                           borderRadius: BorderRadius.circular(35.0),
                         ),
                         backgroundColor: Colors.transparent),
                     child: Text(
-                      'Bob Taylor LinkedIn',
+                      'Bob Taylor\'s LinkedIn',
                       style: Theme.of(context).textTheme.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10.0,
                 ),
                 Container(
@@ -128,25 +129,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   child: ElevatedButton(
                     onPressed: () {
-                      _launchURLBrowser('https://github.com/AllyTechEngineering/');
+                      _cookieAlertRejectAccept('https://github.com/AllyTechEngineering/');
+                      // _launchURLBrowser('https://github.com/AllyTechEngineering/');
                     },
                     style: ElevatedButton.styleFrom(
                         elevation: 10.0,
                         // fixedSize: Size((width * 0.75), (height / 5.5)),
                         fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
                         shape: RoundedRectangleBorder(
-                          side: BorderSide(width: 3.0, style: BorderStyle.solid),
+                          side: const BorderSide(width: 3.0, style: BorderStyle.solid),
                           borderRadius: BorderRadius.circular(35.0),
                         ),
                         backgroundColor: Colors.transparent),
                     child: Text(
-                      'Bob Taylor Portfolio',
+                      'Bob Taylor\'s GitHub Portfolio',
                       style: Theme.of(context).textTheme.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10.0,
                 ),
                 Container(
@@ -167,25 +169,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   child: ElevatedButton(
                     onPressed: () {
-                      _launchURLBrowser('https://allytechllc.com');
+                      _cookieAlertRejectAccept('https://allytechllc.com');
+                      // _launchURLBrowser('https://allytechllc.com');
                     },
                     style: ElevatedButton.styleFrom(
                         elevation: 10.0,
                         // fixedSize: Size((width * 0.75), (height / 5.5)),
                         fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
                         shape: RoundedRectangleBorder(
-                          side: BorderSide(width: 3.0, style: BorderStyle.solid),
+                          side: const BorderSide(width: 3.0, style: BorderStyle.solid),
                           borderRadius: BorderRadius.circular(35.0),
                         ),
                         backgroundColor: Colors.transparent),
                     child: Text(
-                      'Developer\'s Website',
+                      'AllyTech Mobile App Development Website',
                       style: Theme.of(context).textTheme.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10.0,
                 ),
                 Container(
@@ -206,25 +209,25 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                   child: ElevatedButton(
                     onPressed: () {
-                      _launchURLBrowser('https://taylorsailing.com/shop');
+                      _cookieAlertRejectAccept('https://taylorsailing.com/shop');
                     },
                     style: ElevatedButton.styleFrom(
                         elevation: 10.0,
                         // fixedSize: Size((width * 0.75), (height / 5.5)),
                         fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
                         shape: RoundedRectangleBorder(
-                          side: BorderSide(width: 3.0, style: BorderStyle.solid),
+                          side: const BorderSide(width: 3.0, style: BorderStyle.solid),
                           borderRadius: BorderRadius.circular(35.0),
                         ),
                         backgroundColor: Colors.transparent),
                     child: Text(
-                      'Taylor Sailing Supplies',
+                      'Visit us at: taylorsailing.com/shop',
                       style: Theme.of(context).textTheme.bodyLarge,
                       textAlign: TextAlign.center,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10.0,
                 ),
               ],
@@ -235,13 +238,57 @@ class _SettingsScreenState extends State<SettingsScreen> {
     );
   }
 
+  _cookieAlertRejectAccept(String urlValue) {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: StyledText(
+          text: '<bold>Entering a website that requires (or may require) cookies</bold>',
+          tags: {
+            'bold': StyledTextTag(
+              style: Theme.of(context).textTheme.titleSmall,
+            ),
+          },
+        ),
+        actions: <Widget>[
+          TextButton(
+            onPressed: () {
+              Navigator.of(ctx).pop();
+              _launchURLBrowser(urlValue);
+            },
+            child: Container(
+              color: Colors.greenAccent,
+              padding: const EdgeInsets.all(14),
+              child: const Text('Accept'),
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(ctx).pop();
+              // _launchURLBrowser('https://taylorsailing.com/shop');
+            },
+            child: Container(
+              color: Colors.redAccent,
+              padding: const EdgeInsets.all(14),
+              child: const Text('Reject'),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   _launchURLBrowser(String urlValue) async {
     var url = Uri.parse(urlValue);
     if (await canLaunchUrl(url)) {
-      print('Inside of if means canLaunchUrl ok');
+      debugPrint('Inside of if means canLaunchUrl ok');
+      // await launchUrl(url,
+      //     mode: LaunchMode.platformDefault,
+      //     webViewConfiguration: WebViewConfiguration(enableJavaScript: true),
+      //     webOnlyWindowName: '_self');
       await launchUrl(url);
     } else {
-      print('After the else means an error: $url');
+      debugPrint('After the else means an error: $url');
       throw 'Could not launch $url';
     } //else
   } //_launchURLBrowser

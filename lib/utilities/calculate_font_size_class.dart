@@ -158,8 +158,8 @@ class CalculateFontSizeClass {
       // iPad 3rd gen
       // iPad 2
       // iPad 1st gen
-      double iPad768x1024portrait = 10.0;
-      double iPad768x1024landscape = 10.0;
+      double iPad768x1024portrait = 14.0;
+      double iPad768x1024landscape = 20.0;
       if ((orientation == Orientation.portrait) && ((width == 768) && (height == 1024))) {
         adjustedFontSize = iPad768x1024portrait * scaleFactor;
         return adjustedFontSize;
@@ -171,8 +171,8 @@ class CalculateFontSizeClass {
       // iPad 9th gen
       // iPad 8th gen
       // iPad 7th gen
-      double iPad810x1080portrait = 10.0;
-      double iPad810x1080landscape = 10.0;
+      double iPad810x1080portrait = 12.0;
+      double iPad810x1080landscape = 16.0;
       if ((orientation == Orientation.portrait) && ((width == 810) && (height == 1080))) {
         adjustedFontSize = iPad810x1080portrait * scaleFactor;
         return adjustedFontSize;
@@ -183,8 +183,8 @@ class CalculateFontSizeClass {
       // iPads: 834 w x 1112  h
       // iPad Air (3rd gen)
       // iPad Pro (2nd gen 10.5")
-      double iPad834x1112portrait = 10.0;
-      double iPad834x1112landscape = 10.0;
+      double iPad834x1112portrait = 14.0;
+      double iPad834x1112landscape = 20.0;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1112))) {
         adjustedFontSize = iPad834x1112portrait * scaleFactor;
         return adjustedFontSize;
@@ -194,8 +194,8 @@ class CalculateFontSizeClass {
       }
       // iPads: 744.0 w x 1113.0  h
       // iPad Mini (6th gen)
-      double iPad744x1113portrait = 10.0;
-      double iPad744x1113landscape = 10.0;
+      double iPad744x1113portrait = 12.0;
+      double iPad744x1113landscape = 16.0;
       if ((orientation == Orientation.portrait) && ((width == 744.0) && (height == 1133.0))) {
         adjustedFontSize = iPad744x1113portrait * scaleFactor;
         return adjustedFontSize;
@@ -208,8 +208,8 @@ class CalculateFontSizeClass {
       // iPad 10th gen
       // iPad Air (5th gen)
       // iPad Air (4th gen)
-      double iPad820x1180portrait = 10.0;
-      double iPad820x1180landscape = 10.0;
+      double iPad820x1180portrait = 14.0;
+      double iPad820x1180landscape = 20.0;
       if ((orientation == Orientation.portrait) && ((width == 820) && (height == 1180))) {
         adjustedFontSize = iPad820x1180portrait * scaleFactor;
         return adjustedFontSize;
@@ -222,8 +222,8 @@ class CalculateFontSizeClass {
       // iPad Pro (5th gen 11")
       // iPad Pro (4th gen 11")
       // iPad Pro (3rd gen 11")
-      double iPad834x1194portrait = 10.0;
-      double iPad834x1194landscape = 10.0;
+      double iPad834x1194portrait = 14.0;
+      double iPad834x1194landscape = 20.0;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1194))) {
         adjustedFontSize = iPad834x1194portrait * scaleFactor;
         return adjustedFontSize;
@@ -238,8 +238,8 @@ class CalculateFontSizeClass {
       // iPad Pro (3rd gen 12.9")
       // iPad Pro (2nd gen 12.9")
       //  iPad Pro (1st gen 12.9")
-      double iPad1024x1366portrait = 10.0;
-      double iPad1024x1366landscape = 10.0;
+      double iPad1024x1366portrait = 14.0;
+      double iPad1024x1366landscape = 20.0;
       if ((orientation == Orientation.portrait) && ((width == 1024) && (height == 1366))) {
         adjustedFontSize = iPad1024x1366portrait * scaleFactor;
         return adjustedFontSize;

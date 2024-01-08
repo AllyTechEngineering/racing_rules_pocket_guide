@@ -1,36 +1,64 @@
 {
   "partFiveProtestsSectionD": [
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "A boat shall avoid contact with another boat if reasonably possible. However, a right-of-way boat, or one sailing within the room or mark-room to which she is entitled, need not act to avoid contact until it is clear that the other boat is not keeping clear or giving room or mark-room. "
+      "Title": "SECTION D APPEALS\n70.1 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "(a) Provided that the right of appeal has not been denied under rule 70.5, a party to a hearing may appeal a protest committee’s decision or its procedures, but not the facts found.\n(b)  A boat may appeal when she is denied a hearing required by rule 63.1."
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "When rule 21 or 22 applies between two boats, Section A rules do not."
+      "Title": "SECTION D APPEALS\n70.2 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "A protest committee may request confirmation or correction of its decision."
     },
     {
-      "Title": "SECTION D OTHER RULES\n21 STARTING ERRORS; TAKING PENALTIES; BACKING A SAIL",
-      "Rule": "When a right-of-way boat changes course, she shall give the other boat room to keep clear."
+      "Title": "SECTION D APPEALS\n70.3 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "An appeal under rule 70.1 or a request by a protest committee under rule 70.2 shall be sent to the national authority with which the organizing authority is associated under rule 89.1."
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "In addition, on a beat to windward when a port-tack boat is keeping clear by sailing to pass to leeward of a starboard-tack boat, the starboard-tack boat shall not bear away if as a result the port-tack boat must change course immediately to continue keeping clear."
+      "Title": "SECTION D APPEALS\n70.3 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY Continued",
+      "Rule": "However, if boats will pass through the waters of more than one national authority while racing, an appeal or request shall be sent to the national authority where the finishing line is located, unless the sailing instructions identify another national authority."
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "If a boat clear astern becomes overlapped within two of her hull lengths to leeward of a boat on the same tack, she shall not sail above her proper course while they remain on the same tack and overlapped within that distance, unless in doing so she promptly sails astern of the other boat. This rule does not apply if the overlap begins while the windward boat is required by rule 13 to keep clear."
+      "Title": "SECTION D APPEALS\n70.4 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "A club or other organization affiliated to a national authority may request an interpretation of the rules, provided that no protest or request for redress that may be appealed is involved. The interpretation shall not be used for changing a previous protest committee decision."
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "If a boat clear astern becomes overlapped within two of her hull lengths to leeward of a boat on the same tack, she shall not sail above her proper course while they remain on the same tack and overlapped within that distance, unless in doing so she promptly sails astern of the other boat. This rule does not apply if the overlap begins while the windward boat is required by rule 13 to keep clear."
+      "Title": "SECTION D APPEALS\n70.5 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "There shall be no appeal from the decisions of an international jury constituted in compliance with Appendix N. Furthermore, if the notice of race or the sailing instructions so state, the right of appeal may be denied provided that..."
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "If a boat clear astern becomes overlapped within two of her hull lengths to leeward of a boat on the same tack, she shall not sail above her proper course while they remain on the same tack and overlapped within that distance, unless in doing so she promptly sails astern of the other boat. This rule does not apply if the overlap begins while the windward boat is required by rule 13 to keep clear."
+      "Title": "SECTION D APPEALS\n70.5 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY Continued",
+      "Rule": "(a) it is essential to determine promptly the result of a race that will qualify a boat to compete in a later stage of an event or a subsequent event (a national authority may prescribe that its approval is required for such a procedure);"
     },
     {
-      "Title": "SECTION D OTHER RULES\n ",
-      "Rule": "If a boat clear astern becomes overlapped within two of her hull lengths to leeward of a boat on the same tack, she shall not sail above her proper course while they remain on the same tack and overlapped within that distance, unless in doing so she promptly sails astern of the other boat. This rule does not apply if the overlap begins while the windward boat is required by rule 13 to keep clear."
+      "Title": "SECTION D APPEALS\n70.5 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY Continued",
+      "Rule": "(b) a national authority so approves for a particular event open only to boats entered by an organization affiliated to that national authority, a member of an organization affiliated to that national authority, or a personal member of that national authority; or"
+    },
+    {
+      "Title": "SECTION D APPEALS\n70.5 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY Continued",
+      "Rule": "(c) approves for a particular event, provided the protest committee is constituted as required by Appendix N, except that only two members of the protest committee need be International Judges."
+    },
+    {
+      "Title": "SECTION D APPEALS\n70.6 APPEALS AND REQUESTS TO A NATIONAL AUTHORITY",
+      "Rule": "Appeals and requests shall conform to Appendix R in the World Sailing Rules book."
+    },
+    {
+      "Title": "SECTION D APPEALS\n71.1 NATIONAL AUTHORITY DECISIONS",
+      "Rule": "A person who has a conflict of interest or was a member of the protest committee shall not take any part in the discussion or decision on an appeal or a request for confirmation or correction."
+    },
+    {
+      "Title": "SECTION D APPEALS\n71.2 NATIONAL AUTHORITY DECISIONS",
+      "Rule": "The national authority may uphold, change or reverse a protest committee’s decision including a decision on validity or a decision under rule 69."
+    },
+    {
+      "Title": "SECTION D APPEALS\n71.2 NATIONAL AUTHORITY DECISIONS Continued",
+      "Rule": "Alternatively, the national authority may order that a hearing be reopened, or that a new hearing be held by the same or a different protest committee. When the national authority decides that there shall be a new hearing, it may appoint the protest committee."
+    },
+    {
+      "Title": "SECTION D APPEALS\n71.3 NATIONAL AUTHORITY DECISIONS",
+      "Rule": "When from the facts found by the protest committee the national authority decides that a boat that was a party to a protest hearing broke a rule and is not exonerated, it shall penalize her, whether or not that boat or that rule was mentioned in the protest committee’s decision."
+    },
+    {
+      "Title": "SECTION D APPEALS\n71.4 NATIONAL AUTHORITY DECISIONS",
+      "Rule": "71.4 The decision of the national authority shall be final. The national authority shall send its decision in writing to all parties to the hearing and the protest committee, who shall be bound by the decision."
     }
   ]
 }

@@ -161,10 +161,10 @@ class CalculateButtonSizeClass {
       double iPad768x1024portrait = 768.0 - paddingAdjustment;
       double iPad768x1024landscape = 1024.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 768) && (height == 1024))) {
-        adjustedButtonWidth = iPad768x1024portrait * scaleFactor;
+        adjustedButtonWidth = iPad768x1024portrait * scaleFactor / 1.25;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1024) && (height == 768))) {
-        adjustedButtonWidth = iPad768x1024landscape * scaleFactor;
+        adjustedButtonWidth = iPad768x1024landscape * scaleFactor / 1.25;
         return adjustedButtonWidth;
       }
       // iPads: 810 w x 1080  h
@@ -174,10 +174,10 @@ class CalculateButtonSizeClass {
       double iPad810x1080portrait = 810.0 - paddingAdjustment;
       double iPad810x1080landscape = 1080.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 810) && (height == 1080))) {
-        adjustedButtonWidth = iPad810x1080portrait * scaleFactor;
+        adjustedButtonWidth = iPad810x1080portrait * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1080) && (height == 810))) {
-        adjustedButtonWidth = iPad810x1080landscape * scaleFactor;
+        adjustedButtonWidth = iPad810x1080landscape * scaleFactor / 1.50;
         return adjustedButtonWidth;
       }
       // iPads: 834 w x 1112  h
@@ -186,10 +186,10 @@ class CalculateButtonSizeClass {
       double iPad834x1112portrait = 834.0 - paddingAdjustment;
       double iPad834x1112landscape = 1112.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1112))) {
-        adjustedButtonWidth = iPad834x1112portrait * scaleFactor;
+        adjustedButtonWidth = iPad834x1112portrait * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1112) && (height == 834))) {
-        adjustedButtonWidth = iPad834x1112landscape * scaleFactor;
+        adjustedButtonWidth = iPad834x1112landscape * scaleFactor / 1.50;
         return adjustedButtonWidth;
       }
       // iPads: 744.0 w x 1113.0  h
@@ -197,11 +197,11 @@ class CalculateButtonSizeClass {
       double iPad744x1113portrait = 744.0 - paddingAdjustment;
       double iPad744x1113landscape = 1113.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 744.0) && (height == 1133.0))) {
-        adjustedButtonWidth = iPad744x1113portrait * scaleFactor;
+        adjustedButtonWidth = iPad744x1113portrait * scaleFactor / 1.5;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) &&
           ((width == 1133.0) && (height == 744.0))) {
-        adjustedButtonWidth = iPad744x1113landscape * scaleFactor;
+        adjustedButtonWidth = iPad744x1113landscape * scaleFactor / 1.5;
         return adjustedButtonWidth;
       }
       // iPads: 820 w x 1180  h
@@ -211,10 +211,10 @@ class CalculateButtonSizeClass {
       double iPad820x1180portrait = 820.0 - paddingAdjustment;
       double iPad820x1180landscape = 1180.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 820) && (height == 1180))) {
-        adjustedButtonWidth = iPad820x1180portrait * scaleFactor;
+        adjustedButtonWidth = iPad820x1180portrait * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1180) && (height == 820))) {
-        adjustedButtonWidth = iPad820x1180landscape * scaleFactor;
+        adjustedButtonWidth = iPad820x1180landscape * scaleFactor / 1.50;
         return adjustedButtonWidth;
       }
       // iPads: 834 w x 1194  h
@@ -225,10 +225,10 @@ class CalculateButtonSizeClass {
       double iPad834x1194portrait = 834.0 - paddingAdjustment;
       double iPad834x1194landscape = 1194.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1194))) {
-        adjustedButtonWidth = iPad834x1194portrait * scaleFactor;
+        adjustedButtonWidth = iPad834x1194portrait * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1194) && (height == 834))) {
-        adjustedButtonWidth = iPad834x1194landscape * scaleFactor;
+        adjustedButtonWidth = iPad834x1194landscape * scaleFactor / 1.50;
         return adjustedButtonWidth;
       }
       // iPads: 1024 w x 1366  h
@@ -241,10 +241,10 @@ class CalculateButtonSizeClass {
       double iPad1024x1366portrait = 1024.0 - paddingAdjustment;
       double iPad1024x1366landscape = 1366.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 1024) && (height == 1366))) {
-        adjustedButtonWidth = iPad1024x1366portrait * scaleFactor;
+        adjustedButtonWidth = iPad1024x1366portrait * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else if ((orientation == Orientation.landscape) && ((width == 1366) && (height == 1024))) {
-        adjustedButtonWidth = iPad1024x1366landscape * scaleFactor;
+        adjustedButtonWidth = iPad1024x1366landscape * scaleFactor / 1.50;
         return adjustedButtonWidth;
       } else {
         // default font size
@@ -691,10 +691,10 @@ class CalculateButtonSizeClass {
       double iPad768x1024portrait = 768.0 - paddingAdjustment;
       double iPad768x1024landscape = 1024.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 768) && (height == 1024))) {
-        adjustedButtonHeight = iPad768x1024portrait * scaleFactor;
+        adjustedButtonHeight = iPad768x1024portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1024) && (height == 768))) {
-        adjustedButtonHeight = iPad768x1024landscape * scaleFactor;
+        adjustedButtonHeight = iPad768x1024landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 810 w x 1080  h
@@ -704,10 +704,10 @@ class CalculateButtonSizeClass {
       double iPad810x1080portrait = 810.0 - paddingAdjustment;
       double iPad810x1080landscape = 1080.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 810) && (height == 1080))) {
-        adjustedButtonHeight = iPad810x1080portrait * scaleFactor;
+        adjustedButtonHeight = iPad810x1080portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1080) && (height == 810))) {
-        adjustedButtonHeight = iPad810x1080landscape * scaleFactor;
+        adjustedButtonHeight = iPad810x1080landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 834 w x 1112  h
@@ -716,10 +716,10 @@ class CalculateButtonSizeClass {
       double iPad834x1112portrait = 834.0 - paddingAdjustment;
       double iPad834x1112landscape = 1112.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1112))) {
-        adjustedButtonHeight = iPad834x1112portrait * scaleFactor;
+        adjustedButtonHeight = iPad834x1112portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1112) && (height == 834))) {
-        adjustedButtonHeight = iPad834x1112landscape * scaleFactor;
+        adjustedButtonHeight = iPad834x1112landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 744.0 w x 1113.0  h
@@ -727,11 +727,11 @@ class CalculateButtonSizeClass {
       double iPad744x1113portrait = 744.0 - paddingAdjustment;
       double iPad744x1113landscape = 1113.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 744.0) && (height == 1133.0))) {
-        adjustedButtonHeight = iPad744x1113portrait * scaleFactor;
+        adjustedButtonHeight = iPad744x1113portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) &&
           ((width == 1133.0) && (height == 744.0))) {
-        adjustedButtonHeight = iPad744x1113landscape * scaleFactor;
+        adjustedButtonHeight = iPad744x1113landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 820 w x 1180  h
@@ -741,10 +741,10 @@ class CalculateButtonSizeClass {
       double iPad820x1180portrait = 820.0 - paddingAdjustment;
       double iPad820x1180landscape = 1180.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 820) && (height == 1180))) {
-        adjustedButtonHeight = iPad820x1180portrait * scaleFactor;
+        adjustedButtonHeight = iPad820x1180portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1180) && (height == 820))) {
-        adjustedButtonHeight = iPad820x1180landscape * scaleFactor;
+        adjustedButtonHeight = iPad820x1180landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 834 w x 1194  h
@@ -755,10 +755,10 @@ class CalculateButtonSizeClass {
       double iPad834x1194portrait = 834.0 - paddingAdjustment;
       double iPad834x1194landscape = 1194.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 834) && (height == 1194))) {
-        adjustedButtonHeight = iPad834x1194portrait * scaleFactor;
+        adjustedButtonHeight = iPad834x1194portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1194) && (height == 834))) {
-        adjustedButtonHeight = iPad834x1194landscape * scaleFactor;
+        adjustedButtonHeight = iPad834x1194landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       }
       // iPads: 1024 w x 1366  h
@@ -771,10 +771,10 @@ class CalculateButtonSizeClass {
       double iPad1024x1366portrait = 1024.0 - paddingAdjustment;
       double iPad1024x1366landscape = 1366.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && ((width == 1024) && (height == 1366))) {
-        adjustedButtonHeight = iPad1024x1366portrait * scaleFactor;
+        adjustedButtonHeight = iPad1024x1366portrait * scaleFactor / 4;
         return adjustedButtonHeight;
       } else if ((orientation == Orientation.landscape) && ((width == 1366) && (height == 1024))) {
-        adjustedButtonHeight = iPad1024x1366landscape * scaleFactor;
+        adjustedButtonHeight = iPad1024x1366landscape * scaleFactor / 4;
         return adjustedButtonHeight;
       } else {
         // default font size

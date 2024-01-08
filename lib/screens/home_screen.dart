@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:sailing_rules/models/selections_model.dart';
 import 'package:sailing_rules/screens/results_screen.dart';
 import 'package:sailing_rules/utilities/calculate_button_size_class.dart';
-import 'package:sailing_rules/utilities/constants.dart';
+// import 'package:sailing_rules/utilities/constants.dart';
 import '../blocs/selection/selection_cubit.dart';
 import '../utilities/responsive_adaptive_class.dart';
 
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
           centerTitle: true,
           title: Text(
-            'Racing Rules\nPocket Guide',
+            'Rules Guide',
             style: Theme.of(context).textTheme.displayLarge,
             softWrap: true,
             textAlign: TextAlign.center,
@@ -105,72 +105,74 @@ class _HomeScreenState extends State<HomeScreen> {
             itemCount: selectionsModel.selectionPartNames.length,
             itemBuilder: (context, index) => Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  ElevatedButton(
-                    onPressed: () {
-                      context
-                          .read<SelectionCubit>()
-                          .setSelectionChoice(_selectionChoiceCode[index]);
-                      setState(() {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const ResultsScreen(),
-                          ),
-                        );
-                      });
-                    },
-                    style: ElevatedButton.styleFrom(
-                      fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
-                      elevation: 10.0,
-                      padding: EdgeInsets.zero,
-                      shape: RoundedRectangleBorder(
-                        side: const BorderSide(width: 3.0, style: BorderStyle.solid),
-                        borderRadius: BorderRadius.circular(35.0),
-                      ),
-                    ),
-                    child: Row(
-                      children: [
-                        // Dark blue gradient with white text
-                        Expanded(
-                          child: Container(
-                            width: elevatedButtonWidth,
-                            height: elevatedButtonHeight,
-                            decoration: const BoxDecoration(
-                              gradient: LinearGradient(
-                                begin: Alignment.centerLeft,
-                                end: Alignment.centerRight,
-                                colors: [
-                                  Color(0xFF2D9596),
-                                  Color(0xFF265073),
-                                ],
-                                stops: [0.0, 1.0],
-                              ),
-                              borderRadius: BorderRadius.horizontal(
-                                right: Radius.circular(35.0),
-                                left: Radius.circular(35.0),
-                              ),
+              child: Center(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    ElevatedButton(
+                      onPressed: () {
+                        context
+                            .read<SelectionCubit>()
+                            .setSelectionChoice(_selectionChoiceCode[index]);
+                        setState(() {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const ResultsScreen(),
                             ),
-                            child: Padding(
-                              padding: const EdgeInsets.fromLTRB(20.0, 8.0, 4.0, 8.0),
-                              child: Align(
-                                alignment: Alignment.centerLeft,
-                                child: Text(
-                                  selectionsModel.selectionPartNames[index],
-                                  style: Theme.of(context).textTheme.bodyLarge,
-                                  textAlign: TextAlign.start,
+                          );
+                        });
+                      },
+                      style: ElevatedButton.styleFrom(
+                        fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
+                        elevation: 10.0,
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          side: const BorderSide(width: 3.0, style: BorderStyle.solid),
+                          borderRadius: BorderRadius.circular(35.0),
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          // Dark blue gradient with white text
+                          Expanded(
+                            child: Container(
+                              width: elevatedButtonWidth,
+                              height: elevatedButtonHeight,
+                              decoration: const BoxDecoration(
+                                gradient: LinearGradient(
+                                  begin: Alignment.centerLeft,
+                                  end: Alignment.centerRight,
+                                  colors: [
+                                    Color(0xFF2D9596),
+                                    Color(0xFF265073),
+                                  ],
+                                  stops: [0.0, 1.0],
+                                ),
+                                borderRadius: BorderRadius.horizontal(
+                                  right: Radius.circular(35.0),
+                                  left: Radius.circular(35.0),
+                                ),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.fromLTRB(20.0, 8.0, 4.0, 8.0),
+                                child: Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    selectionsModel.selectionPartNames[index],
+                                    style: Theme.of(context).textTheme.bodyLarge,
+                                    textAlign: TextAlign.start,
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),

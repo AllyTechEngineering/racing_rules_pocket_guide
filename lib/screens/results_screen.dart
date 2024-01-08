@@ -102,113 +102,117 @@ class _ResultsScreenState extends State<ResultsScreen> {
                       itemCount: rulesDataResultsListValue.length,
                       itemBuilder: (context, index) => Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            ElevatedButton(
-                              onPressed: () {
-                                showDialog(
-                                  context: context,
-                                  builder: (ctx) => AlertDialog(
-                                    title: StyledText(
-                                      text:
-                                          '<bold>${rulesDataResultsListValue[index].title}</bold>',
-                                      tags: {
-                                        'bold': StyledTextTag(
-                                          style: Theme.of(context).textTheme.titleSmall,
-                                        ),
-                                      },
-                                      // style: Theme.of(context).textTheme.bodySmall,
-                                      // textAlign: TextAlign.start,
-                                    ),
-                                    content: Text(
-                                      rulesDataResultsListValue[index].rule,
-                                      style: Theme.of(context).textTheme.bodyMedium,
-                                      textAlign: TextAlign.start,
-                                    ),
-                                    actions: <Widget>[
-                                      TextButton(
-                                        onPressed: () {
-                                          Navigator.of(ctx).pop();
+                        child: Center(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              ElevatedButton(
+                                onPressed: () {
+                                  showDialog(
+                                    context: context,
+                                    builder: (ctx) => AlertDialog(
+                                      title: StyledText(
+                                        text:
+                                            '<bold>${rulesDataResultsListValue[index].title}</bold>',
+                                        tags: {
+                                          'bold': StyledTextTag(
+                                            style: Theme.of(context).textTheme.titleSmall,
+                                          ),
                                         },
-                                        child: Container(
-                                          color: Colors.greenAccent,
-                                          padding: const EdgeInsets.all(14),
-                                          child: const Text('Dismiss'),
-                                        ),
+                                        // style: Theme.of(context).textTheme.bodySmall,
+                                        // textAlign: TextAlign.start,
                                       ),
-                                    ],
+                                      content: Text(
+                                        rulesDataResultsListValue[index].rule,
+                                        style: Theme.of(context).textTheme.bodyMedium,
+                                        textAlign: TextAlign.start,
+                                      ),
+                                      actions: <Widget>[
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(ctx).pop();
+                                          },
+                                          child: Container(
+                                            color: Colors.greenAccent,
+                                            padding: const EdgeInsets.all(14),
+                                            child: const Text('Dismiss'),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  );
+                                },
+                                style: ElevatedButton.styleFrom(
+                                  fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
+                                  elevation: 10.0,
+                                  padding: EdgeInsets.zero,
+                                  shape: RoundedRectangleBorder(
+                                    side: const BorderSide(width: 3.0, style: BorderStyle.solid),
+                                    borderRadius: BorderRadius.circular(35.0),
                                   ),
-                                );
-                              },
-                              style: ElevatedButton.styleFrom(
-                                fixedSize: Size(elevatedButtonWidth, elevatedButtonHeight),
-                                elevation: 10.0,
-                                padding: EdgeInsets.zero,
-                                shape: RoundedRectangleBorder(
-                                  side: const BorderSide(width: 3.0, style: BorderStyle.solid),
-                                  borderRadius: BorderRadius.circular(35.0),
                                 ),
-                              ),
-                              child: Row(
-                                children: [
-                                  // Dark blue gradient with white text
-                                  Expanded(
-                                    child: Container(
-                                      // width: double.infinity,
-                                      decoration: const BoxDecoration(
-                                        gradient: LinearGradient(
-                                          begin: Alignment.centerLeft,
-                                          end: Alignment.centerRight,
-                                          colors: [
-                                            Color(0xFF2D9596),
-                                            Color(0xFF265073),
-                                          ],
-                                          stops: [0.0, 1.0],
+                                child: Row(
+                                  children: [
+                                    // Dark blue gradient with white text
+                                    Expanded(
+                                      child: Container(
+                                        // width: double.infinity,
+                                        decoration: const BoxDecoration(
+                                          gradient: LinearGradient(
+                                            begin: Alignment.centerLeft,
+                                            end: Alignment.centerRight,
+                                            colors: [
+                                              Color(0xFF2D9596),
+                                              Color(0xFF265073),
+                                            ],
+                                            stops: [0.0, 1.0],
+                                          ),
+                                          borderRadius: BorderRadius.horizontal(
+                                            right: Radius.circular(35.0),
+                                            left: Radius.circular(35.0),
+                                          ),
                                         ),
-                                        borderRadius: BorderRadius.horizontal(
-                                          right: Radius.circular(35.0),
-                                          left: Radius.circular(35.0),
-                                        ),
-                                      ),
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        mainAxisAlignment: MainAxisAlignment.center,
-                                        children: [
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(20.0, 0.0, 8.0, 0.0),
-                                            child: Align(
-                                              alignment: Alignment.centerLeft,
-                                              child: StyledText(
-                                                text:
-                                                    '<bold>${rulesDataResultsListValue[index].title}</bold>',
-                                                tags: {
-                                                  'bold': StyledTextTag(
-                                                    style: Theme.of(context).textTheme.titleLarge,
-                                                  ),
-                                                },
-                                                // style: Theme.of(context).textTheme.bodySmall,
-                                                // textAlign: TextAlign.start,
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            Padding(
+                                              padding:
+                                                  const EdgeInsets.fromLTRB(20.0, 0.0, 8.0, 0.0),
+                                              child: Align(
+                                                alignment: Alignment.centerLeft,
+                                                child: StyledText(
+                                                  text:
+                                                      '<bold>${rulesDataResultsListValue[index].title}</bold>',
+                                                  tags: {
+                                                    'bold': StyledTextTag(
+                                                      style: Theme.of(context).textTheme.titleLarge,
+                                                    ),
+                                                  },
+                                                  // style: Theme.of(context).textTheme.bodySmall,
+                                                  // textAlign: TextAlign.start,
+                                                ),
                                               ),
                                             ),
-                                          ),
-                                          Padding(
-                                            padding: const EdgeInsets.fromLTRB(20.0, 0.0, 8.0, 4.0),
-                                            child: Text(
-                                              rulesDataResultsListValue[index].rule,
-                                              softWrap: true,
-                                              style: Theme.of(context).textTheme.titleMedium,
-                                              textAlign: TextAlign.start,
+                                            Padding(
+                                              padding:
+                                                  const EdgeInsets.fromLTRB(20.0, 0.0, 8.0, 4.0),
+                                              child: Text(
+                                                rulesDataResultsListValue[index].rule,
+                                                softWrap: true,
+                                                style: Theme.of(context).textTheme.titleMedium,
+                                                textAlign: TextAlign.start,
+                                              ),
                                             ),
-                                          ),
-                                        ],
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                     );
@@ -228,33 +232,33 @@ class _ResultsScreenState extends State<ResultsScreen> {
     String tempValue = context.watch<SelectionCubit>().state.selectionChoice.name;
     switch (tempValue) {
       case 'partOneFundamental':
-        tempValue = 'Part 1\nFundamental Rules';
+        tempValue = 'Part 1 Fundamental';
       case 'partTwoWhenBoatsMeetSectionA':
-        tempValue = 'Part 2 When Boats\nMeet Section A';
+        tempValue = 'Part 2 When Boats Meet';
       case 'partTwoWhenBoatsMeetSectionB':
-        tempValue = 'Part 2 When Boats\nMeet Section B';
+        tempValue = 'Part 2 When Boats Meet';
       case 'partTwoWhenBoatsMeetSectionC':
-        tempValue = 'Part 2 When Boats\nMeet Section C';
+        tempValue = 'Part 2 When Boats Meet';
       case 'partTwoWhenBoatsMeetSectionD':
-        tempValue = 'Part 2 When Boats\nMeet Section D';
+        tempValue = 'Part 2 When Boats Meet';
       case 'partThreeConduct':
-        tempValue = 'Part 3 Conduct\nof A Race';
+        tempValue = 'Part 3 Conduct';
       case 'partFourOtherSectionA':
-        tempValue = 'Part 4 Other\nReq. Section A';
+        tempValue = 'Part 4 Other Req.';
       case 'partFourOtherSectionB':
-        tempValue = 'Part 4 Other\n Req. Section B';
+        tempValue = 'Part 4 Other Req.';
       case 'partFiveProtestsSectionA':
-        tempValue = 'Part 5 Protests\nSection A';
+        tempValue = 'Part 5 Protests';
       case 'partFiveProtestsSectionB':
-        tempValue = 'Part 5 Protests\nSection B';
+        tempValue = 'Part 5 Protests';
       case 'partFiveProtestsSectionC':
-        tempValue = 'Part 5 Protests\nSection C';
+        tempValue = 'Part 5 Protests';
       case 'partFiveProtestsSectionD':
-        tempValue = 'Part 5 Protests\nSection D';
+        tempValue = 'Part 5 Protests';
       case 'partSixEntry':
-        tempValue = 'Part 6 Entry\n& Qualification';
+        tempValue = 'Part 6 Entry & Qual.';
       case 'partSevenRace':
-        tempValue = 'Part 7 Race\nOrganization';
+        tempValue = 'Part 7 Race Org.';
       default:
         tempValue = 'Part 1 Fundamental Rules';
     }
