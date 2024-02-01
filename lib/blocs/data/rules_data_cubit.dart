@@ -1,11 +1,9 @@
 import 'dart:async';
-
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 import 'package:sailing_rules/blocs/selection/selection_cubit.dart';
 import 'package:sailing_rules/models/rules_data_model.dart';
-
 import '../../repositories/rules_data_repository.dart';
 
 part 'rules_data_state.dart';

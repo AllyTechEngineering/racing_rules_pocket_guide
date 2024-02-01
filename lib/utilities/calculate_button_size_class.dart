@@ -288,8 +288,8 @@ class CalculateButtonSizeClass {
         return adjustedButtonWidth;
       }
       // generic Android screen size: tablet width >= 421
-      double androidGenericTabletPortrait = 421.0 - paddingAdjustment;
-      double androidGenericTableLandscape = 421.0 - paddingAdjustment;
+      double androidGenericTabletPortrait = 800.0 - paddingAdjustment;
+      double androidGenericTableLandscape = 1000.0 - paddingAdjustment;
       if ((orientation == Orientation.portrait) && (width >= 421)) {
         adjustedButtonWidth = androidGenericTabletPortrait * scaleFactor;
         // debugPrint('in Android screen size: tablet width >= 421 height: $height\nwidth: $width');

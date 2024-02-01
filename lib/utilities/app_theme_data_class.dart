@@ -190,10 +190,10 @@ class AppThemeDataClass {
           //border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(25.0))),
         ),
       ),
-      iconTheme: IconThemeData(
+      iconTheme: const IconThemeData(
         size: kIconThemeIconSize,
         fill: 1.0,
-        color: const Color(0xFFFFFFFF),
+        color: Color(0xFFFFFFFF),
         // weight: 1.0,
         // opacity: 1.0,
       ),

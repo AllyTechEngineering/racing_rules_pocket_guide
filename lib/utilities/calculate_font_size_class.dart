@@ -7,8 +7,8 @@ class CalculateFontSizeClass {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     Orientation orientation = MediaQuery.of(context).orientation;
-    // debugPrint(
-    //     'in calculateFontSize: orientation = $orientation\nheight = $height\nwidth = $width');
+    debugPrint(
+        'in calculateFontSize: orientation = $orientation\nheight = $height\nwidth = $width');
 
     if (Platform.isIOS) {
       // iPhones: 320 w x 568 h
@@ -288,8 +288,8 @@ class CalculateFontSizeClass {
         return adjustedFontSize;
       }
       // generic Android screen size: tablet width >= 421
-      double androidGenericTabletPortrait = 10.0;
-      double androidGenericTableLandscape = 10.0;
+      double androidGenericTabletPortrait = 16.0;
+      double androidGenericTableLandscape = 16.0;
       if ((orientation == Orientation.portrait) && (width >= 421)) {
         adjustedFontSize = androidGenericTabletPortrait * scaleFactor;
         // debugPrint('in Android screen size: tablet width >= 421 height: $height\nwidth: $width');
