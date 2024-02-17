@@ -40,6 +40,7 @@ dependencies:
   auto_size_text: ^3.0.0
   styled_text: ^8.1.0
   permission_handler: ^11.1.0
+  package_info: ^2.0.2
   # dev_dependencies: This section is used to declare packages that are only needed during development,
   # testing, or building processes but are not required for the actual execution of the application.
   # These dependencies are not included when the app is compiled and packaged for distribution.
@@ -67,21 +68,21 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/assets/images/ocean_background.png
-    - lib/assets/json_data_files/part_one_fundamental_rules.json
-    - lib/assets/json_data_files/part_two_section_a_when_boats_meet.json
-    - lib/assets/json_data_files/part_two_section_b_when_boats_meet.json
-    - lib/assets/json_data_files/part_two_section_c_when_boats_meet.json
-    - lib/assets/json_data_files/part_two_section_d_when_boats_meet.json
-    - lib/assets/json_data_files/part_three_conduct_of_race.json
-    - lib/assets/json_data_files/part_four_section_a_other_requirements.json
-    - lib/assets/json_data_files/part_four_section_b_other_requirements.json
-    - lib/assets/json_data_files/part_five_section_a_protests.json
-    - lib/assets/json_data_files/part_five_section_b_protests.json
-    - lib/assets/json_data_files/part_five_section_c_protests.json
-    - lib/assets/json_data_files/part_five_section_d_protests.json
-    - lib/assets/json_data_files/part_six_entry.json
-    - lib/assets/json_data_files/part_seven_race.json
+    - assets/images/ocean_background.png
+    - assets/json_data_files/part_one_fundamental_rules.json
+    - assets/json_data_files/part_two_section_a_when_boats_meet.json
+    - assets/json_data_files/part_two_section_b_when_boats_meet.json
+    - assets/json_data_files/part_two_section_c_when_boats_meet.json
+    - assets/json_data_files/part_two_section_d_when_boats_meet.json
+    - assets/json_data_files/part_three_conduct_of_race.json
+    - assets/json_data_files/part_four_section_a_other_requirements.json
+    - assets/json_data_files/part_four_section_b_other_requirements.json
+    - assets/json_data_files/part_five_section_a_protests.json
+    - assets/json_data_files/part_five_section_b_protests.json
+    - assets/json_data_files/part_five_section_c_protests.json
+    - assets/json_data_files/part_five_section_d_protests.json
+    - assets/json_data_files/part_six_entry.json
+    - assets/json_data_files/part_seven_race.json
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

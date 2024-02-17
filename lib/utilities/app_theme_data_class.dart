@@ -147,7 +147,7 @@ class AppThemeDataClass {
           fontStyle: FontStyle.normal,
           fontWeight: FontWeight.normal,
           fontSize: displaySmallFontSize,
-          color: const Color(0xFF000000),
+          color: const Color(0xFFFFFFFF),
         ),
         titleLarge: GoogleFonts.roboto(
           fontStyle: FontStyle.normal,

@@ -5,9 +5,7 @@ import 'package:sailing_rules/models/selections_model.dart';
 import 'package:sailing_rules/screens/results_screen.dart';
 import 'package:sailing_rules/utilities/calculate_button_size_class.dart';
 import 'package:sailing_rules/utilities/calculate_font_size_class.dart';
-// import 'package:sailing_rules/utilities/constants.dart';
 import '../blocs/selection/selection_cubit.dart';
-// import '../utilities/responsive_adaptive_class.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -17,19 +15,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  // final ResponsiveAdaptiveClass responsiveAdaptiveClass = ResponsiveAdaptiveClass();
   final CalculateFontSizeClass calculateFontSizeClass = CalculateFontSizeClass();
   final CalculateButtonSizeClass calculateButtonSizeClass = CalculateButtonSizeClass();
   final SelectionsModel selectionsModel = SelectionsModel();
 
   dynamic orientation, size, height, width;
-  // double fontSizeValue = 0.0;
-  // double classFontSize = 0.0;
-  // double appBarTitleFontSize = 0.0;
   double elevatedButtonWidth = 0.0;
   double elevatedButtonHeight = 0.0;
-  // double classImageHeight = 0.0;
-  // double classImageWidth = 0.0;
   final _selectionChoiceCode = <String>[
     'partOneFundamental',
     // 'partTwoWhenBoatsMeet',
@@ -57,16 +49,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // responsiveAdaptiveClass.orientation = MediaQuery.of(context).orientation;
-    // responsiveAdaptiveClass.size = MediaQuery.of(context).size;
-    // orientation = MediaQuery.of(context).orientation;
-    // height = MediaQuery.of(context).size.height;
-    // width = MediaQuery.of(context).size.width;
-    // responsiveAdaptiveClass.height = responsiveAdaptiveClass.size.height;
-    // responsiveAdaptiveClass.width = responsiveAdaptiveClass.size.width;
     elevatedButtonWidth = calculateButtonSizeClass.calculateButtonWidth(context, 1);
     elevatedButtonHeight = calculateButtonSizeClass.calculateButtonHeight(context, 1);
-    // debugPrint('Home Screen width = $width\nHome Screen height = $height');
+    debugPrint('Home Screen width = $width\nHome Screen height = $height');
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(textScaler: const TextScaler.linear(1.0)),
       child: Scaffold(
@@ -97,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
           flexibleSpace: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('lib/assets/images/ocean_background.png'),
+                image: AssetImage('assets/images/ocean_background.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -107,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
           decoration: const BoxDecoration(
               image: DecorationImage(
                   opacity: 1.0,
-                  image: AssetImage('lib/assets/images/ocean_background.png'),
+                  image: AssetImage('assets/images/ocean_background.png'),
                   fit: BoxFit.cover)),
           child: ListView.builder(
             itemCount: selectionsModel.selectionPartNames.length,

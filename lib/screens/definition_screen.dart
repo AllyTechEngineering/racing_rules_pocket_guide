@@ -12,23 +12,12 @@ class DefinitionScreen extends StatefulWidget {
 }
 
 class _DefinitionScreenState extends State<DefinitionScreen> {
-  // final ResponsiveAdaptiveClass responsiveAdaptiveClass = ResponsiveAdaptiveClass();
   final CalculateButtonSizeClass calculateButtonSizeClass = CalculateButtonSizeClass();
-  // dynamic orientation, size, height, width;
-  // double fontSizeValue = 0.0;
-  // double classFontSize = 0.0;
-  // double appBarTitleFontSize = 0.0;
   double elevatedButtonWidth = 0.0;
   double elevatedButtonHeight = 0.0;
-  // double classImageHeight = 0.0;
-  // double classImageWidth = 0.0;
 
   @override
   Widget build(BuildContext context) {
-    // responsiveAdaptiveClass.orientation = MediaQuery.of(context).orientation;
-    // responsiveAdaptiveClass.size = MediaQuery.of(context).size;
-    // responsiveAdaptiveClass.height = responsiveAdaptiveClass.size.height;
-    // responsiveAdaptiveClass.width = responsiveAdaptiveClass.size.width;
     elevatedButtonWidth = calculateButtonSizeClass.calculateButtonWidth(context, 1);
     elevatedButtonHeight = calculateButtonSizeClass.calculateButtonHeight(context, 0.75);
     return MediaQuery(
@@ -58,7 +47,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
           flexibleSpace: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('lib/assets/images/ocean_background.png'),
+                image: AssetImage('assets/images/ocean_background.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -68,7 +57,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
           decoration: const BoxDecoration(
             image: DecorationImage(
                 opacity: 1.0,
-                image: AssetImage('lib/assets/images/ocean_background.png'),
+                image: AssetImage('assets/images/ocean_background.png'),
                 fit: BoxFit.cover),
           ),
           child: ListView(

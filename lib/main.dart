@@ -7,7 +7,6 @@ import 'package:sailing_rules/screens/home_screen.dart';
 import 'package:sailing_rules/screens/results_screen.dart';
 import 'package:sailing_rules/screens/settings_screen.dart';
 import 'package:sailing_rules/utilities/app_theme_data_class.dart';
-
 import 'blocs/data/rules_data_cubit.dart';
 import 'blocs/selection/selection_cubit.dart';
 
@@ -36,12 +35,6 @@ final GoRouter _router = GoRouter(
             return const ResultsScreen();
           },
         ),
-        // GoRoute(
-        //   path: 'results_screen_two',
-        //   builder: (BuildContext context, GoRouterState state) {
-        //     return const ResultsScreenTwo();
-        //   },
-        // ),
         GoRoute(
           path: 'settings_screen',
           builder: (BuildContext context, GoRouterState state) {

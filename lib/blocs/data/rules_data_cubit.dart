@@ -32,15 +32,14 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_one_fundamental_rules.json',
-                  'partOneFundamental'),
+                  'assets/json_data_files/part_one_fundamental_rules.json', 'partOneFundamental'),
             ),
           );
         case 'partTwoWhenBoatsMeetSectionA':
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_two_section_a_when_boats_meet.json',
+                  'assets/json_data_files/part_two_section_a_when_boats_meet.json',
                   'partTwoWhenBoatsMeetSectionA'),
             ),
           );
@@ -48,7 +47,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_two_section_b_when_boats_meet.json',
+                  'assets/json_data_files/part_two_section_b_when_boats_meet.json',
                   'partTwoWhenBoatsMeetSectionB'),
             ),
           );
@@ -56,7 +55,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_two_section_c_when_boats_meet.json',
+                  'assets/json_data_files/part_two_section_c_when_boats_meet.json',
                   'partTwoWhenBoatsMeetSectionC'),
             ),
           );
@@ -64,7 +63,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_two_section_d_when_boats_meet.json',
+                  'assets/json_data_files/part_two_section_d_when_boats_meet.json',
                   'partTwoWhenBoatsMeetSectionD'),
             ),
           );
@@ -72,14 +71,14 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_three_conduct_of_race.json', 'partThreeConduct'),
+                  'assets/json_data_files/part_three_conduct_of_race.json', 'partThreeConduct'),
             ),
           );
         case 'partFourOtherSectionA':
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_four_section_a_other_requirements.json',
+                  'assets/json_data_files/part_four_section_a_other_requirements.json',
                   'partFourOtherSectionA'),
             ),
           );
@@ -87,7 +86,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_four_section_b_other_requirements.json',
+                  'assets/json_data_files/part_four_section_b_other_requirements.json',
                   'partFourOtherSectionB'),
             ),
           );
@@ -95,7 +94,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_five_section_a_protests.json',
+                  'assets/json_data_files/part_five_section_a_protests.json',
                   'partFiveProtestsSectionA'),
             ),
           );
@@ -103,7 +102,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_five_section_b_protests.json',
+                  'assets/json_data_files/part_five_section_b_protests.json',
                   'partFiveProtestsSectionB'),
             ),
           );
@@ -111,7 +110,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_five_section_c_protests.json',
+                  'assets/json_data_files/part_five_section_c_protests.json',
                   'partFiveProtestsSectionC'),
             ),
           );
@@ -119,7 +118,7 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_five_section_d_protests.json',
+                  'assets/json_data_files/part_five_section_d_protests.json',
                   'partFiveProtestsSectionD'),
             ),
           );
@@ -127,22 +126,21 @@ class RulesDataCubit extends Cubit<RulesDataState> {
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_six_entry.json', 'partSixEntry'),
+                  'assets/json_data_files/part_six_entry.json', 'partSixEntry'),
             ),
           );
         case 'partSevenRace':
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_seven_race.json', 'partSevenRace'),
+                  'assets/json_data_files/part_seven_race.json', 'partSevenRace'),
             ),
           );
         default:
           emit(
             LoadedRulesDataState(
               await rulesDataRepository.getRulesData(
-                  'lib/assets/json_data_files/part_one_fundamental_rules.json',
-                  'partOneFundamental'),
+                  'assets/json_data_files/part_one_fundamental_rules.json', 'partOneFundamental'),
             ),
           );
       }
@@ -158,13 +156,3 @@ class RulesDataCubit extends Cubit<RulesDataState> {
     return super.close();
   }
 }
-// if (selectionCubit.state.selectionChoice.name == 'partOneFundamental') {
-//   final rulesDataResultDataList = await rulesDataRepository.getRulesData(
-//       'lib/assets/json_data_files/part_one_fundamental_rules.json', 'partOneFundamental');
-//   emit(LoadedRulesDataState(rulesDataResultDataList));
-// } else if (selectionCubit.state.selectionChoice.name == 'partTwoWhenBoatsMeet') {
-//   final rulesDataResultDataList = await rulesDataRepository.getRulesData(
-//       'lib/assets/json_data_files/part_two_section_a_when_boats_meet.json',
-//       'partTwoWhenBoatsMeet');
-//   emit(LoadedRulesDataState(rulesDataResultDataList));
-// }

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:package_info/package_info.dart';
 import 'package:sailing_rules/utilities/calculate_button_size_class.dart';
 import 'package:styled_text/styled_text.dart';
 import '../utilities/url_launcher.dart';
 import 'package:url_launcher/url_launcher.dart';
-// import '../utilities/responsive_adaptive_class.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -15,32 +15,22 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  // final ResponsiveAdaptiveClass responsiveAdaptiveClass = ResponsiveAdaptiveClass();
   final CalculateButtonSizeClass calculateButtonSizeClass = CalculateButtonSizeClass();
   late final UrlLauncher urlLauncher;
   dynamic orientation, size, height, width;
   bool appTrackingTransparencyStatus = false;
-  // double fontSizeValue = 0.0;
-  // double classFontSize = 0.0;
-  // double appBarTitleFontSize = 0.0;
   double elevatedButtonWidth = 0.0;
   double elevatedButtonHeight = 0.0;
-  // double classImageHeight = 0.0;
-  // double classImageWidth = 0.0;
+  String version = 'Unknown';
   @override
   void initState() {
-    // var permissionRequest = Permission.appTrackingTransparency.request();
-    // debugPrint('permissionRequest = $permissionRequest');
+    _loadVersionNumber();
     _appPermissionHandler();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    // responsiveAdaptiveClass.orientation = MediaQuery.of(context).orientation;
-    // responsiveAdaptiveClass.size = MediaQuery.of(context).size;
-    // responsiveAdaptiveClass.height = responsiveAdaptiveClass.size.height;
-    // responsiveAdaptiveClass.width = responsiveAdaptiveClass.size.width;
     elevatedButtonWidth = calculateButtonSizeClass.calculateButtonWidth(context, 1);
     elevatedButtonHeight = calculateButtonSizeClass.calculateButtonHeight(context, 0.75);
 
@@ -63,17 +53,28 @@ class _SettingsScreenState extends State<SettingsScreen> {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('lib/assets/images/ocean_background.png'),
+              image: AssetImage('assets/images/ocean_background.png'),
               fit: BoxFit.fill,
             ),
           ),
         ),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              'Ver: $version',
+              style: Theme.of(context).textTheme.displaySmall,
+              softWrap: true,
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
             opacity: 1.0,
-            image: AssetImage('lib/assets/images/ocean_background.png'),
+            image: AssetImage('assets/images/ocean_background.png'),
             fit: BoxFit.cover,
           ),
         ),
@@ -364,6 +365,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
         ),
       ),
     );
+  }
+
+  Future<void> _loadVersionNumber() async {
+    try {
+      PackageInfo packageInfo = await PackageInfo.fromPlatform();
+      setState(() {
+        version = packageInfo.version;
+      });
+    } catch (e) {
+      debugPrint('Error loading version number: $e');
+    }
   }
 
   _cookieAlertRejectAccept(String urlValue) {
